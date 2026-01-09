@@ -205,7 +205,7 @@ const App: React.FC = () => {
         <div className="absolute inset-0 opacity-[0.08] card-pattern scale-150"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-[#1a1512]/90"></div>
         
-        <div className="absolute top-6 inset-x-4 md:top-10 md:left-10 md:right-auto z-20 text-[9px] text-stone-500 uppercase tracking-[0.5em] animate-fade-in flex flex-wrap items-center justify-center md:justify-start gap-3 md:gap-6">
+        <div className="absolute top-4 inset-x-4 md:top-8 md:left-10 md:right-auto z-20 text-[9px] text-stone-500 uppercase tracking-[0.5em] animate-fade-in flex flex-wrap items-center justify-center md:justify-start gap-3 md:gap-6">
           <span className="flex items-center gap-2">
             <span className="w-1 h-1 bg-aleppo rounded-full animate-pulse"></span>
             By <span className="text-stone-300 font-bold">Theo Sayad</span>
