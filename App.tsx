@@ -476,7 +476,7 @@ const App: React.FC = () => {
           <div className="lg:col-span-3 p-10 md:p-16 bg-white flex items-center relative">
             <div className="animate-fade-in w-full">
               <p className="text-lg md:text-3xl font-serif italic leading-relaxed text-stone-800 border-l-4 border-aleppo/20 pl-6 md:pl-10 text-balance">
-                The Sayad name has traveled far. From the original seven siblings, our family has grown into a global network—filmmakers, doctors, entrepreneurs, and more—across New York, Beirut, Dubai, and beyond. This project is about more than just history—it's about the present.
+                The Sayad name has traveled far. From the original seven siblings, our family has grown into a global network of filmmakers, doctors, entrepreneurs, and more, across New York, Beirut, Dubai, and beyond. This project is about more than just history; it's about the present.
               </p>
               <div className="mt-8 flex gap-4">
                 <a 
