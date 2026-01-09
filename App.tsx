@@ -211,7 +211,7 @@ const App: React.FC = () => {
           </a>
         </div>
 
-        <div className="max-w-4xl mx-auto text-center relative z-10 px-4 -translate-y-8 sm:-translate-y-10 md:-translate-y-16">
+        <div className="max-w-4xl mx-auto text-center relative z-10 px-4 -translate-y-4 sm:-translate-y-8 md:-translate-y-16">
           <span className="hidden sm:inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-aleppo text-[11px] sm:text-xs md:text-sm font-bold uppercase tracking-[0.35em] sm:tracking-[0.45em] mb-6 sm:mb-8 animate-fade-in opacity-0 [animation-delay:200ms] [animation-fill-mode:forwards]">
             <span className="w-1.5 h-1.5 bg-aleppo rounded-full"></span>
             Digital Heritage Platform
@@ -223,7 +223,7 @@ const App: React.FC = () => {
           
           <div className="max-w-xl mx-auto mb-12 sm:mb-16 animate-fade-in opacity-0 [animation-delay:600ms] [animation-fill-mode:forwards]">
             <p className="text-[11px] sm:text-xs md:text-sm text-stone-300/75 font-light leading-relaxed uppercase tracking-[0.2em] sm:tracking-[0.22em] mb-6">
-              Dedicated to the <span className="text-aleppo font-bold">Generations of Cousins</span>, building our shared future worldwide.
+              Dedicated to the <span className="text-aleppo font-bold">Generations of Cousins</span>, building our shared future worldwide
             </p>
             <p className="text-stone-300/90 font-serif italic text-[17px] sm:text-lg md:text-xl leading-relaxed mb-10 text-balance">
               "This project is a promise that wherever you go, you have family waiting, a global home that is always open to you."
@@ -234,7 +234,7 @@ const App: React.FC = () => {
             href={WHATSAPP_GROUP_LINK}
             target="_blank"
             rel="noopener noreferrer"
-            className="inline-flex w-full sm:w-auto justify-center items-center gap-4 px-8 sm:px-12 py-4 sm:py-5 bg-white text-stone-900 rounded-full text-[11px] sm:text-[10px] font-bold uppercase tracking-[0.2em] sm:tracking-[0.3em] hover:bg-aleppo hover:text-white transition-all shadow-[0_20px_50px_rgba(0,0,0,0.3)] active:scale-95 animate-fade-in opacity-0 [animation-delay:800ms] [animation-fill-mode:forwards]"
+            className="inline-flex w-[92%] sm:w-auto justify-center items-center gap-4 px-8 sm:px-12 py-4 sm:py-5 bg-white text-stone-900 rounded-full text-[11px] sm:text-[10px] font-bold uppercase tracking-[0.2em] sm:tracking-[0.3em] hover:bg-aleppo hover:text-white transition-all shadow-[0_20px_50px_rgba(0,0,0,0.3)] active:scale-95 animate-fade-in opacity-0 [animation-delay:800ms] [animation-fill-mode:forwards]"
           >
             <svg className="w-5 h-5 text-[#25D366]" fill="currentColor" viewBox="0 0 24 24">
               <path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L0 24l6.335-1.662c1.72.94 3.659 1.437 5.63 1.438h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/>
@@ -466,17 +466,17 @@ const App: React.FC = () => {
             <div className="absolute inset-0 opacity-10 card-pattern"></div>
             <div className="relative z-10">
               <span className="text-aleppo text-[9px] md:text-[11px] tracking-[0.5em] uppercase mb-4 block font-bold">A Global Legacy</span>
-              <h2 className="text-3xl md:text-5xl italic text-white mb-6">Pride & <br className="hidden md:block"/>Continuity</h2>
+              <h2 className="text-2xl md:text-5xl italic text-white mb-6">Pride & <br className="hidden md:block"/>Continuity</h2>
               <div className="w-10 h-0.5 bg-aleppo mb-6"></div>
-              <p className="text-stone-400 font-serif italic text-lg leading-relaxed">
+              <p className="text-stone-400 font-serif italic text-base md:text-lg leading-relaxed">
                 "We are spread across the world, yet tied by a single name and a shared history that connects every cousin today."
               </p>
             </div>
           </div>
           <div className="lg:col-span-3 p-10 md:p-16 bg-white flex items-center relative">
             <div className="animate-fade-in w-full">
-              <p className="text-xl md:text-3xl font-serif italic leading-relaxed text-stone-800 border-l-4 border-aleppo/20 pl-6 md:pl-10 text-balance">
-                The Sayad name has traveled far. From the original seven siblings, our family has grown into a global network living in New York, New Jersey, Beirut, Dubai, Tampa, and beyond. This project is about more than just history—it's about the present.
+              <p className="text-lg md:text-3xl font-serif italic leading-relaxed text-stone-800 border-l-4 border-aleppo/20 pl-6 md:pl-10 text-balance">
+                The Sayad name has traveled far. From the original seven siblings, our family has grown into a global network—filmmakers, doctors, entrepreneurs, and more—across New York, Beirut, Dubai, and beyond. This project is about more than just history—it's about the present.
               </p>
               <div className="mt-8 flex gap-4">
                 <a 
