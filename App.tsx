@@ -211,7 +211,7 @@ const App: React.FC = () => {
           </a>
         </div>
 
-        <div className="max-w-4xl mx-auto text-center relative z-10 px-4 md:-translate-y-16">
+        <div className="max-w-4xl mx-auto text-center relative z-10 px-4 -translate-y-8 sm:-translate-y-10 md:-translate-y-16">
           <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-aleppo text-[11px] sm:text-xs md:text-sm font-bold uppercase tracking-[0.35em] sm:tracking-[0.45em] mb-6 sm:mb-8 animate-fade-in opacity-0 [animation-delay:200ms] [animation-fill-mode:forwards]">
             <span className="w-1.5 h-1.5 bg-aleppo rounded-full"></span>
             Digital Heritage Platform
