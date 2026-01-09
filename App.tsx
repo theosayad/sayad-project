@@ -517,6 +517,11 @@ const App: React.FC = () => {
                 <p className="text-lg md:text-xl font-serif italic leading-relaxed text-stone-300 group-hover:text-white transition-colors text-balance">
                   "How good and how pleasant it is for brethren to dwell together in unity!"
                 </p>
+                <div className="mt-4 flex items-center justify-center gap-3 text-stone-400/80">
+                  <div className="h-px w-10 bg-stone-700/60"></div>
+                  <span className="text-[9px] font-bold uppercase tracking-[0.4em]">Psalm 133:1</span>
+                  <div className="h-px w-10 bg-stone-700/60"></div>
+                </div>
                 <div className="mt-8 flex items-center justify-center">
                   <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white text-stone-900 text-[10px] font-bold uppercase tracking-[0.25em] group-hover:bg-aleppo group-hover:text-white transition-colors shadow-lg">
                     Enter Community
