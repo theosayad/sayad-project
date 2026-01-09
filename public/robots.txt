@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://theosayad.github.io/sayad-project/sitemap.xml

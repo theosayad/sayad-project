@@ -405,11 +405,7 @@ const App: React.FC = () => {
                                 <path strokeLinecap="round" strokeLinejoin="round" strokeWidth="2" d="M19 9l-7 7-7-7" />
                               </svg>
                             </button>
-                          ) : (
-                            <p className="text-[9px] text-stone-300 uppercase tracking-widest mt-6 font-bold text-center italic border-t border-stone-50 pt-4">
-                              End of branch lineage
-                            </p>
-                          )}
+                          ) : null}
                         </div>
 
                         {isExpanded && descendants.length > 0 && (
@@ -423,7 +419,9 @@ const App: React.FC = () => {
                                       <p className="text-[9px] text-stone-400 font-bold uppercase">{member.location}</p>
                                     )}
                                   </div>
-                                  <span className="text-[8px] font-mono font-bold bg-white px-1.5 py-0.5 rounded border border-stone-100 text-stone-300">G{member.generation}</span>
+                                  <span className="text-[8px] font-mono font-bold bg-white px-1.5 py-0.5 rounded border border-stone-100 text-stone-300">
+                                    {formatGeneration(member.generation)}
+                                  </span>
                                 </div>
                               ))}
                             </div>
