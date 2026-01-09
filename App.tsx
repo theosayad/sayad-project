@@ -205,7 +205,7 @@ const App: React.FC = () => {
         <div className="absolute inset-0 opacity-[0.08] card-pattern scale-150"></div>
         <div className="absolute inset-0 bg-gradient-to-b from-black/20 via-transparent to-[#1a1512]/90"></div>
         
-        <div className="absolute top-8 left-8 md:top-10 md:left-10 z-20 text-[9px] text-stone-500 uppercase tracking-[0.6em] animate-fade-in flex items-center gap-6">
+        <div className="absolute top-6 inset-x-4 md:top-10 md:left-10 md:right-auto z-20 text-[9px] text-stone-500 uppercase tracking-[0.5em] animate-fade-in flex flex-wrap items-center justify-center md:justify-start gap-3 md:gap-6">
           <span className="flex items-center gap-2">
             <span className="w-1 h-1 bg-aleppo rounded-full animate-pulse"></span>
             By <span className="text-stone-300 font-bold">Theo Sayad</span>
@@ -215,24 +215,23 @@ const App: React.FC = () => {
           </a>
         </div>
 
-        <div className="max-w-4xl mx-auto text-center relative z-10 px-4">
-          <span className="inline-block text-aleppo text-[10px] md:text-[11px] font-bold uppercase tracking-[0.8em] mb-6 animate-fade-in opacity-0 [animation-delay:200ms] [animation-fill-mode:forwards]">
+        <div className="max-w-4xl mx-auto text-center relative z-10 px-4 md:-translate-y-16">
+          <span className="inline-flex items-center gap-2 px-4 py-2 rounded-full bg-white/5 border border-white/10 text-aleppo text-[10px] md:text-[11px] font-bold uppercase tracking-[0.5em] mb-8 animate-fade-in opacity-0 [animation-delay:200ms] [animation-fill-mode:forwards]">
+            <span className="w-1.5 h-1.5 bg-aleppo rounded-full"></span>
             Digital Heritage Platform
           </span>
           
-          <h1 className="text-6xl md:text-[10rem] font-normal italic mb-8 tracking-tighter text-white leading-[0.75] animate-fade-in opacity-0 [animation-delay:400ms] [animation-fill-mode:forwards] drop-shadow-2xl">
+          <h1 className="text-6xl md:text-[10rem] font-normal italic mb-8 tracking-tighter text-white leading-[0.82] animate-fade-in opacity-0 [animation-delay:400ms] [animation-fill-mode:forwards] drop-shadow-2xl">
             The Sayad Project
           </h1>
           
           <div className="max-w-xl mx-auto mb-16 animate-fade-in opacity-0 [animation-delay:600ms] [animation-fill-mode:forwards]">
-            <p className="text-stone-400 italic font-serif text-xl md:text-2xl leading-relaxed mb-8 opacity-90 text-balance">
-              "How good and how pleasant it is for brethren to dwell together in unity!"
+            <p className="text-[10px] md:text-[11px] text-stone-300/75 font-light leading-relaxed uppercase tracking-[0.25em] mb-6">
+              Dedicated to the <span className="text-aleppo font-bold">Generations of Cousins</span>, building our shared future worldwide.
             </p>
-            <div className="flex items-center justify-center gap-4 text-stone-400">
-              <div className="h-[0.5px] w-12 bg-stone-700"></div>
-              <span className="text-[9px] uppercase tracking-[0.5em] font-bold opacity-70">Psalm 133:1</span>
-              <div className="h-[0.5px] w-12 bg-stone-700"></div>
-            </div>
+            <p className="text-stone-300/90 font-serif italic text-lg md:text-xl leading-relaxed mb-10 text-balance">
+              "This project is a promise that wherever you go, you have family waiting, a global home that is always open to you."
+            </p>
           </div>
           
           <a 
@@ -502,11 +501,6 @@ const App: React.FC = () => {
           <div className="mb-10 md:mb-12">
             <h4 className="text-2xl md:text-3xl italic text-stone-800 mb-4">The Sayad Project</h4>
             <div className="w-8 h-px bg-stone-200 mx-auto mb-6"></div>
-            <p className="text-xs md:text-sm text-stone-400 font-light leading-relaxed uppercase tracking-[0.2em] mb-10">
-              Dedicated to the <br/>
-              <span className="text-aleppo font-bold">Generations of Cousins</span><br/>
-              building our shared future worldwide.
-            </p>
           </div>
 
           <div className="grid gap-10 md:gap-12">
@@ -524,7 +518,7 @@ const App: React.FC = () => {
                   <span className="text-[9px] font-bold uppercase tracking-[0.45em] text-aleppo">Join WhatsApp Community</span>
                 </div>
                 <p className="text-lg md:text-xl font-serif italic leading-relaxed text-stone-300 group-hover:text-white transition-colors text-balance">
-                  "This project is a promise that wherever you go, you have family waiting—a global home that is always open to you."
+                  "How good and how pleasant it is for brethren to dwell together in unity!"
                 </p>
                 <div className="mt-8 flex items-center justify-center">
                   <span className="inline-flex items-center gap-2 px-5 py-2.5 rounded-full bg-white text-stone-900 text-[10px] font-bold uppercase tracking-[0.25em] group-hover:bg-aleppo group-hover:text-white transition-colors shadow-lg">
