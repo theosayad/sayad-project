@@ -466,7 +466,7 @@ const App: React.FC = () => {
             <div className="absolute inset-0 opacity-10 card-pattern"></div>
             <div className="relative z-10">
               <span className="text-aleppo text-[9px] md:text-[11px] tracking-[0.5em] uppercase mb-4 block font-bold">A Global Legacy</span>
-              <h2 className="text-4xl md:text-5xl italic text-white mb-6">Pride & <br className="hidden md:block"/>Continuity</h2>
+              <h2 className="text-3xl md:text-5xl italic text-white mb-6">Pride & <br className="hidden md:block"/>Continuity</h2>
               <div className="w-10 h-0.5 bg-aleppo mb-6"></div>
               <p className="text-stone-400 font-serif italic text-lg leading-relaxed">
                 "We are spread across the world, yet tied by a single name and a shared history that connects every cousin today."
